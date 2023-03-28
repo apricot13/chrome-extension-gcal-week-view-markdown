@@ -1,0 +1,12 @@
+{
+  "name": "Google Calendar week view as markdown",
+  "action": {},
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Takes current Google Calendar week view in browser and outputs events in a markdown file.",
+  "host_permissions": ["https://www.google.com/*"],
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
